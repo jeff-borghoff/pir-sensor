@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="-1G^Khii7*22~}F|[Yg6" x="0" y="0"/><block type="device_forever" id="bS+8Kaq:$~d9xNhD4+-b" x="241" y="82"><statement name="HANDLER"><block type="device_while" id="[U$Wnuipokg{S9ghG6pa"><value name="COND"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="CWfXJ,EV5Z/@T6Tj8@A0"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_digital_pin" id="l/Hj2S0Uv20e-Zv1Bkk7"><field name="name">DigitalPin.P0</field></block></value><value name="B"><shadow type="math_number" id="DXAe57$T~-.00|(]2|m["><field name="NUM">1</field></shadow></value></block></value><statement name="DO"><block type="device_show_leds" id="0/_hda`{9$TkOI`~o{?1"><field name="LEDS">`
+        . # . # . 
+        . . # # # 
+        # # # # # 
+        . # # # . 
+        . # . # .
+        `</field><next><block type="device_pause" id="*w%esZx9o3f|yd!TD;ua"><value name="pause"><shadow type="timePicker" id="S0S$:Dpk(cTnAVHBeBmZ"><field name="ms">100</field></shadow></value><next><block type="device_clear_display" id="wzYu9ZF:-E?+^Fnb2*@7"/></next></block></next></block></statement></block></statement></block></xml>
